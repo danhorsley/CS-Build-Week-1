@@ -23,4 +23,21 @@ forest_dict = {'Sights':['fallen trees', 'logs', 'branches', 'twigs', 'fallen le
                'Down':[' muddy hole', ' slippery slope'],
                'How' : ['runs', 'leads', 'goes', 'points']}
 
-all_regions = {'castle':castle_dict, 'forest':forest_dict}
+mountain_dict = {'Sights':['uneven stone', 'crags', 'jagged cliffs', 'shale', 'scree', 'granite', 'moss', 
+                            'a winding treeline', 'whispy clouds', 'mist in the valley below', 
+                             'sheer ravines', 'a thundering waterfall', 'deep snow', 'hawks', 'eagles',
+                              'ravens', 'falcons', 'owls', 'bighorn sheep', 'rock slides'],
+               'Sounds':['wind whistling along the slopes', 'animal howls', 'rustling leaves', 
+               'frothing waterfalls', 'water trickling into snow melt', 'scree shifting underfoot', 
+               'rockfalls', 'birds calling', 'animals pattering through the underbrush', 'branches snapping'],
+                'Smells':['pine needles', 'crisp air', 'clean water', 'earthy moss', 'rotting logs', 
+                'wet rock', 'wildflower blossoms'],
+                'Touch':[' the cold unyielding stone', 'a sharp breeze', 'dust getting in your eyes', 
+                'spongy moss underfoot', 'prickling pine needles caught in your boot', 
+                'slippery shale underfoot'],
+               'Paths': [' rocky path', ' stony road', ' granite track',' slppery trail'],
+               'Up':[' climbable rock face', ' rocky switchback'],
+               'Down':[' climbable rock face', ' rocky switchback'],
+               'How' : ['runs', 'leads', 'goes', 'points']}
+
+all_regions = {'castle':castle_dict, 'forest':forest_dict, 'mountain' : mountain_dict}
